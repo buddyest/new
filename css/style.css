@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+}
+
+.head{
+	position: relative;
+	height: 90vh;
+	background-image: linear-gradient(to right, rgba(154, 192, 220, 0.8), rgba(57, 79, 107, 0.8)), url(../images/foggy-forest.jpg);
+	background-size:cover;
+	background-repeat: no-repeat; 
+	background-position: top;
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+	text-align: center;
+}
+
+.head .hero-text{
+	position:relative;
+	top: 35%;
+	text-align: center;
+	color: #ffffff;
+}
+.nav-bar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	
+	z-index: 99;
+	
+}
+.nav-bar .logo{
+	margin: 1rem 0 1rem 4rem;
+	font-size: 30px;
+	color:#FFFFFF;
+	float: left;
+	background: #D11E21;
+}
+.nav-bar .nav-list{
+	float: right;
+	margin:1rem 2rem 0rem;
+	color:#ffffff;
+}
+
+.nav-bar .nav-list ul li{
+	list-style: none;
+	float: left;
+	padding: 0.6rem;
+	margin-left: 0.2rem;
+}
+
+.nav-bar .nav-list ul li:hover{
+	
+	/*background: #FFFFFF;*/
+	border-radius: 5px;
+	border: solid;
+	border-color: #FFFFFF;
+}
+
+
+.tasks-list{
+	margin-top: 10rem;
+}
+
+.tasks{
+	padding: 4rem 0px;
+    background-image: linear-gradient(to right, rgba(154, 192, 220, 0.8), rgba(57, 79, 107, 0.8)), url(../images/blue-sky.jpg);
+    background-size: cover;
+    transform: skewY(-5.5deg);
+    margin-top: -9rem;
+	text-align: center;	
+}
+
+.tasks > * {
+	transform: skewY(5deg);
+	
+}
+.tasks ul li{
+	list-style: none;
+	display: inline-block;
+}
+.task{
+	margin: 2rem;
+	width:180px;
+	height:180px;
+	background: #FFFFFF;
+	padding: 1.5rem;
+	border-radius: 7px;
+	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+	text-align: center;
+	
+}
+
+.task i{
+	font-size: 50px;
+}
+.task h6{
+	font-size: 15px;
+}
+.task:hover{
+	transition: all .3s;
+}
+
+.aboutus{
+	margin-top: 10rem;
+	padding: 2rem;
+}
+.main-footer{
+	background:#2B2333;
+	padding:2rem;
+	color:#FFffff;
+}
+.footer{
+	margin-top: 5rem;
+	background: #C4C4C4;
+	height: auto;
+	padding: 2rem 4rem;
+}
+
+.page1 ul li{
+	list-style: none;
+}
